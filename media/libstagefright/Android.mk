@@ -156,9 +156,6 @@ LOCAL_CLANG := true
 # FFMPEG plugin
 LOCAL_C_INCLUDES += $(TOP)/external/stagefright-plugins/include
 
-# FFMPEG plugin
-LOCAL_C_INCLUDES += $(TOP)/external/stagefright-plugins/include
-
 #LOCAL_CFLAGS += -DLOG_NDEBUG=0
 
 ifeq ($(BOARD_USE_SAMSUNG_COLORFORMAT), true)
